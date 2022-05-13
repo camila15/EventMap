@@ -1,0 +1,12 @@
+{
+    "places": [
+        {
+            "description": "El aeropuerto del poli ",
+            "name": "Polipuerto",
+            "geometry": [
+                6.210633381958949,
+                -75.57748859785474
+            ]
+        }
+    ]
+}
