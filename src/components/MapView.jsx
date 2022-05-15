@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { MapContainer, Marker, Popup, TileLayer, useMap, useMapEvents } from 'react-leaflet'
-import data from '../assets/data.json'
+import places from '../assets/js/data.js'
 import Markers from './Markers'
 
 const MapView = () => {
@@ -33,7 +33,7 @@ const MapView = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <LocationMarker />
-        <Markers data={data} />
+        <Markers places={places} />
       </MapContainer>
     </>
   )

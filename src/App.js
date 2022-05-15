@@ -1,5 +1,6 @@
 import './App.css';
 import MapView from './components/MapView';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
