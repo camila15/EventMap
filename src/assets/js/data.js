@@ -1,12 +1,15 @@
-import porteria from '../img/image_content_32247555_20181119101302.jpg';
-import p40 from '../img/poli-desde-el-cielo.jpg'
+import alejandroTobonEstudio from '../img/Alejandro-tobon-estudio.jpg';
+import elColeccionista from '../img/El-Coleccionista.jpg';
+import atelier4 from '../img/Atelier4.png';
+import laHojaTaller from '../img/La-hoja-taller.jpg';
+import bunkerTaller from '../img/Bunker-taller.jpg';
 
 const places = [
     {
         name: "Politécnico Jaime Isaza Cadavid",
         description: "Entrada del Poli",
         date: "Lunes 16/05/2022 Hora: 14:00",
-        image: porteria,
+        image: alejandroTobonEstudio,
         geometry: [
             6.212782164089769, 
             -75.5770904927681
@@ -16,7 +19,7 @@ const places = [
         name: "Bloque P-40",
         description: "Bloque P-40",
         date: "Lunes 16/05/2022 Hora: 14:00",
-        image: p40,
+        image: "none",
         geometry: [
             6.21053843842637, 
             -75.57700846388329

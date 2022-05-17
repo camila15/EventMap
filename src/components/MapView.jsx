@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { LayersControl, MapContainer, Marker, Popup, TileLayer, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import { LayersControl, MapContainer, Marker, Popup, TileLayer, Tooltip, useMapEvents } from 'react-leaflet'
 import places from '../assets/js/data.js'
 import Markers from './Markers'
 
@@ -41,7 +41,15 @@ const MapView = () => {
                   <Popup>
                     <h1>{place.name}</h1>
                     <p>{place.description}</p>
-                    <img src={place.image} alt={place.name} className="img-fluid align-items-center"></img>
+                    {
+                      () => {
+                        if(place.image === "none"){
+                          
+                        }else{
+                        <img src={place.image} alt={place.name} className="img-fluid align-items-center"></img>
+                      }
+                      }
+                    }
                     <p><b>{place.date}</b></p>
                   </Popup>
                   <Tooltip>{place.name}</Tooltip>
