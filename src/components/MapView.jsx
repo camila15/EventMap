@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { MapContainer, Marker, Popup, TileLayer, useMap, useMapEvents } from 'react-leaflet'
+import { LayersControl, MapContainer, Marker, Popup, TileLayer, Tooltip, useMap, useMapEvents } from 'react-leaflet'
 import places from '../assets/js/data.js'
 import Markers from './Markers'
 
@@ -33,7 +33,24 @@ const MapView = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <LocationMarker />
-        <Markers places={places} />
+        <LayersControl>
+          {
+            places.map(place => (
+              <LayersControl.Overlay name={place.name} >
+                <Marker position={place.geometry}>
+                  <Popup>
+                    <h1>{place.name}</h1>
+                    <p>{place.description}</p>
+                    <img src={place.image} alt={place.name} className="img-fluid align-items-center"></img>
+                    <p><b>{place.date}</b></p>
+                  </Popup>
+                  <Tooltip>{place.name}</Tooltip>
+                </Marker>
+              </LayersControl.Overlay>
+            ))
+          }
+        </LayersControl>
+       
       </MapContainer>
     </>
   )
