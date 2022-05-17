@@ -38,13 +38,15 @@ const MapView = () => {
               <LayersControl.Overlay checked name={place.name} key={place.name}>
                 <Marker position={place.geometry} >
                   <Popup>
+                    {
+                      place.image  ? <img src={place.image} alt={place.name} className="img-fluid align-items-center"></img> : <></>                   
+                      }
                     <h1>{place.name}</h1>
                     {place.description ? <p>{place.description}</p> : null
                     }
                     {
                       place.description2 ? <p>{place.description2}</p> : null
-                    }{
-                      place.image  ? <img src={place.image} alt={place.name} className="img-fluid align-items-center"></img> : <></>                   }
+                    }
                     <p><b>{place.date}</b></p>
                   </Popup>
                   <Tooltip>{place.name}</Tooltip>

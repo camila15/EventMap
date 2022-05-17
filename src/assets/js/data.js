@@ -3,6 +3,12 @@ import elColeccionista from '../img/El-Coleccionista.jpg';
 import atelier4 from '../img/Atelier4.png';
 import laHojaTaller from '../img/La-hoja-taller.jpg';
 import bunkerTaller from '../img/Bunker-taller.jpg';
+import daniloCuadros from '../img/Danilo-cuadros.jpg';
+import diegoDiaz from '../img/Diego-diaz.jpg';
+import madrigalGourmet from '../img/Madrigal-gourmet.jpg';
+import cervezaLibre from '../img/Cerveza-libre.jpg';
+import buenProvecho from '../img/Buen-provecho.png';
+import telemedellin from '../img/Telemedellin.jpg';
 
 const places = [
     {
@@ -64,6 +70,7 @@ const places = [
         name: "Búnker Taller de Artistas",
         description: "Actividad: Open estudio-Artistas: Andrés Layos, Carlos Carmona, Camilo Correa y Diego Díaz ",
         date: "Sábado 04/06/2022 Nivel 2 y 3 ",
+        image: bunkerTaller,
         geometry: [
             6.226594130805044, 
             -75.57456147452677
@@ -72,6 +79,7 @@ const places = [
         name: "Danilo Cuadros",
         description: "Actividad:Taller abierto",
         date: "Sábado 04/06/2022",
+        image: daniloCuadros,
         geometry: [
             6.226088209947457, 
             -75.57424354754284
@@ -80,6 +88,7 @@ const places = [
         name: "Estudio Diego Diaz",
         description: "Actividad:Taller abierto",
         date: "Sábado 04/06/2022, piso 2",
+        image: diegoDiaz,
         geometry: [
             6.2264874753588675, 
             -75.57455074569077
@@ -88,6 +97,7 @@ const places = [
         name: "Madrigal Gourmet",
         description: "Actividad:Ese día abriremos hasta las 8 am - 9 pm Especialidad parrilla y Burgers",
         date: "Sábado 04/06/2022",
+        image: madrigalGourmet,
         geometry: [
             6.227004530571346, 
             -75.5738385763788
@@ -95,6 +105,7 @@ const places = [
     },{
         name: "Cervecería Libre",
         date: "Sábado 04/06/2022-Barrio Colombia, Abierto al público desde el mediodía.",
+        image: cervezaLibre,
         geometry: [
             6.226973037341719, 
             -75.57332254754282
@@ -103,6 +114,7 @@ const places = [
         name: "Feria Buen Provecho",
         description: "Gastronomía local con antojos, platos fuertes, postres, cerveza artesanal y mucho más! @feriabuenprovecho ",
         date: "Sábado 04/06/2022  12:00-22:00 entrada gratuita, Plazoleta MAMM",
+        image: buenProvecho,
         geometry: [
             6.224889589680118, 
             -75.5742169359278
@@ -110,6 +122,7 @@ const places = [
     },{
         name: "Telemedellín",
         date: "Sábado 04/06/2022",
+        image: telemedellin,
         geometry: [
             6.21964303476057, 
             -75.5705736321988
