@@ -86,7 +86,7 @@ const places = [
         ]
     },{
         name: "Madrigal Gourmet",
-        description: "Actividad:Ese día abriremos hasta las 8 am - 9 pm Especialidad parrilla y Burgers",
+        description: "Actividad:Ese día abriremos hasta las 9 pm Especialidad parrilla y Burgers",
         date: "Sábado 04/06/2022",
         image: madrigalGourmet,
         geometry: [
@@ -133,7 +133,7 @@ const places = [
             6.225952413616372, -75.57420977783725        
         ]
     },{
-        name: "Estrato 3 taller",
+        name: "Estrato 3 Taller",
         description: "Artistas: Daniel Gómez, Rodrigo Díaz, Jorge Lagos",
         date: "Sábado 04/06/2022",
         geometry: [
