@@ -94,7 +94,7 @@ const places = [
         ]
     },{
         name: "Cervecería Libre",
-        date: "Sábado 04/06/2022-Barrio Colombia, Abierto al público desde el mediodía.",
+        date: "Sábado 04/06/2022 - Barrio Colombia, Abierto al público desde el mediodía.",
         image: cervezaLibre,
         geometry: [
             6.226726914079838, -75.57325586174136
