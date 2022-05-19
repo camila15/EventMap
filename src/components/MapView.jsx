@@ -27,7 +27,7 @@ const MapView = () => {
 
   return (
     <div className='map'>
-      <MapContainer center={[6.21282601990844, -75.57719105703414]} zoom={13} scrollWheelZoom={true}>
+      <MapContainer center={[6.223043940312917, -75.57495402006079]} zoom={15} scrollWheelZoom={true}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

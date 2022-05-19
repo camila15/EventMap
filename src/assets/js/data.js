@@ -9,7 +9,10 @@ import madrigalGourmet from '../img/Madrigal-gourmet.jpg';
 import cervezaLibre from '../img/Cerveza-libre.jpg';
 import buenProvecho from '../img/Buen-provecho.png';
 import telemedellin from '../img/Telemedellin.jpg';
-import MAMM from '../img/MAMM.jpg'
+import MAMM from '../img/MAMM.jpg';
+import ccbc from '../img/CCBC.jpg';
+import poli from '../img/Poli.png';
+import metroPoli from '../img/Metro-poli.jpg'
 
 const places = [
     {
@@ -117,9 +120,9 @@ const places = [
         ]
     },{
         name: "Telemedellín",
-        description: "Telemedellín - Canal Parque Gabriel García Márquez",
+        description: " Actividad cultural - Canal Parque Gabriel García Márquez",
         description2: "Dirección: Carrera 43 F # 18-60",
-        date: "Sábado 04/06/2022",
+        date: "Sábado 04/06/2022 Desde: 10:00 a. m. hasta: 6:00 p. m.",
         image: telemedellin,
         geometry: [
             6.219463348106567, -75.57152485721653
@@ -183,6 +186,73 @@ const places = [
         geometry: [
             6.227514068503549, -75.57364203780092
         ]
+    },{
+        name: "Politécnico Colombiano Jaime Isaza Cadavid",
+        description: "Conversatorio: la economía creativa de base comunitaria y el trabajo asociativo.",
+        description2: "Auditorio Fernando Gómez Martínez -  Politécnico Colombiano Jaime Isaza Cadavid.",
+        date: "Sábado 04/06/2022 - Desde: 11:00 a. m. hasta: 12:00 m.",
+        image: poli,
+        geometry: [
+            6.212361213429205, -75.57697646104208      
+        ]
+    },{
+        name: "Politécnico Colombiano Jaime Isaza Cadavid",
+        description: "Feria de emprendimientos de economía creativa Talento Poli.",
+        description2: "Centro del buen vivir - Politécnico Colombiano Jaime Isaza Cadavid",
+        date: "Sábado 04/06/2022 - A partir de: 10:00 a. m.",
+        image: poli,
+        geometry: [
+            6.2123878780092125, -75.57729832610678  
+        ]
+    },{
+        name: "Bodega Comfama",
+        description: "Actividad: Antitatto BLACKWORK",
+        description2: "Desde: 1:00 p. m. hasta: 9:00 p. m.",
+        date: "Sábado 04/06/2022 Desde: 1:00 p. m. hasta: 9:00 p. m.",
+        geometry: [
+            6.235110271930259, -75.57185594557276
+        ]
+    },{
+        name: "Comité Cívico del Barrio Colombia",
+        description: "Circuito Artístico Barrio Colombia",
+        description2: "Desde: 1:00 p. m. hasta: 9:00 p. m.",
+        date: "Sábado 04/06/2022 Desde: 1:00 p. m. hasta: 9:00 p. m.",
+        image: ccbc,
+        geometry: [
+            6.235110271930259, -75.57185594557276
+        ]
+    },{
+        name: "Metro de Medellín y Politécnico Colombiano Jaime Isaza Cadavid",
+        description: "Tardes Culturales Metro - Poli",
+        description2: "Plazoleta de Estación Poblado",
+        date: "Sábado 04/06/2022 - A partir de:12:00  m.",
+        image: metroPoli,
+        geometry: [
+            6.212864207356883, -75.57720783420723
+        ]
+    },{
+        name: "Hotel Masaya",
+        description: "Masaya Fest",
+        description2: "Cl. 8 ## 43A-89",
+        date: "Sábado 04/06/2022 - A partir de 11:00 a. m.",
+        geometry: [
+            6.209373755683874, -75.57209764597395
+        ]
+    },{
+        name: "Red Cultural Poblado",
+        description: "Bazar de Artistas y Creativos",
+        description2: "Lugar: Parque lineal de Ciudad del Río",
+        date: "Sábado 04/06/2022 - Desde: 11:00 a. m. hasta: 7:00 p. m.",
+        geometry: [
+            6.220962682911355, -75.57344916632896
+        ]
+    },{
+        name: "Red Cultural Poblado",
+        description: "Por confirmar",
+        description2: "Lugar: Parque El Poblado",
+        date: "Sábado 04/06/2022",
+        geometry: [
+            6.210327810947493, -75.57099339082421        ]
     }
 ];
 
